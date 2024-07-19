@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Landing from './pages/Landing'
 import Rooms from './pages/Rooms'
 import Booking from './pages/Booking'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/rooms' element={<Rooms/>}/>
         <Route path='/booking' element={<Booking/>}/>
       </Routes>
+      <Footer/>
     </>
   )
 }

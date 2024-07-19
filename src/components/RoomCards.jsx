@@ -58,7 +58,7 @@ function RoomCards() {
           </Col>
           
         </Row>
-        </Card>
+        </Card >
       </div>
 
       <Modal 
