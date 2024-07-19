@@ -40,12 +40,12 @@ function RoomCards() {
           <Col md={5} className="align-items-center justify-content-center d-flex">
           <Card.Body >
             
-            <Card.Text className="mb-4 ms-2">
+            <div className="mb-4 ms-2">
               <p>Type: Deluxe</p>
               <p>Type: Deluxe</p>
               <p>Type: Deluxe</p>
               <p>Price: 5000</p>
-            </Card.Text>
+            </div>
               <div className="align-items-center">
               <Button className="mt-1 contact-btn btn btn-success rounded-3 w-75" variant="primary">Book Now</Button>
               </div>
