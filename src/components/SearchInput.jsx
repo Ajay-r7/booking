@@ -12,7 +12,7 @@ function SearchInput() {
             <TextField id="outlined-basic" label="Select Place" color="secondary" variant="outlined" className='w-25 me-3'/>
             <TextField id="outlined-basic" label="Date" color="secondary" variant="outlined" className='w-25 me-3'/>
             <TextField id="outlined-basic" label="Persons" color="secondary" variant="outlined" className='w-25 me-3'/>
-            <Link><button className="contact-btn btn text-light rounded-pill  mt-1 shadow" style={{background:'violet'}}><FontAwesomeIcon icon={faMagnifyingGlass}/></button></Link>
+            <Link><button className="contact-btn btn text-light rounded  mt-1 shadow" style={{background:'blueviolet'}}><FontAwesomeIcon icon={faMagnifyingGlass}/></button></Link>
             </div>
         </div>
     </>

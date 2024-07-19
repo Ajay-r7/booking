@@ -17,20 +17,6 @@ return (
     <RoomCards/>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {/* <div className='container p-4 roomCard' >
       <Row className='justify-content-center align-items-center roomCard' style={{rowGap:'50px'}}>
         <Col sm={12} md={4} lg={3}> <RoomCards/> </Col>

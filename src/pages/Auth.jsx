@@ -26,14 +26,15 @@ function Auth({register}) {
     let validationError={}
     if(!formData.fname || !formData.lname || !formData.email || !formData.password){
       toast.dark('Please fill missing fields')
-    }else if(!/\S+@\S+\.\s+/.test(formData.email)){
-      isvalid=false;
-      validationError.email="Email is not valid"
     }
-    else if(formData.password.length < 6){
-      isvalid=false;
-      validationError.email="password requires atleast 6 characters"
-    }
+    //else if(!/\S+@\S+\.\s+/.test(formData.email)){
+    //   isvalid=false;
+    //   validationError.email="Email is not valid"
+    // }
+    // else if(formData.password.length < 6){
+    //   isvalid=false;
+    //   validationError.email="password requires atleast 6 characters"
+    // }
     
     else{
       handleShow()

@@ -22,8 +22,8 @@ function RoomCards() {
     <>
       {/* rooms card */}
 
-      <div className="container " >
-        <Card className="rounded shadow">
+      <div className="container shadow p-5" >
+        <Card className="rounded shadow border border-secondary">
         <Row className="d-flex justify-content-center w-100 p-3 ">
           
           <Card.Title className="ms-5 fs-2 mb-3 text-center">Kerala Beach Resort</Card.Title>
@@ -40,14 +40,14 @@ function RoomCards() {
           <Col md={5} className="align-items-center justify-content-center d-flex">
           <Card.Body >
             
-            <Card.Text>
+            <Card.Text className="mb-4 ms-2">
               <p>Type: Deluxe</p>
               <p>Type: Deluxe</p>
               <p>Type: Deluxe</p>
               <p>Price: 5000</p>
             </Card.Text>
-              <div className="d-flex align-itmes-end ">
-              <Button className="rounded-3 w-100" variant="primary">Book Now</Button>
+              <div className="align-items-center">
+              <Button className="mt-1 contact-btn btn btn-success rounded-3 w-75" variant="primary">Book Now</Button>
               </div>
           </Card.Body>
           </Col>
