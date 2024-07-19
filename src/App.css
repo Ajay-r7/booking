@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 900px){
+    .roomCard{
+    column-gap: 100px;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+
