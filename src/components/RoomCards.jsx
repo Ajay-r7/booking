@@ -1,4 +1,4 @@
-import axios from "axios";
+
 import React, { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -11,12 +11,7 @@ import RoomAmenities from "./RoomAmenities";
 
 function RoomCards() {
   const [rooms, setRooms] = useState([]);
-  useEffect(() => {
-    axios
-      .get("http://localhost:3000/rooms")
-      .then((res) => setRooms(res.rooms))
-      .catch((err) => console.log(err));
-  }, []);
+  
 
   const [show, setShow] = useState(false);
 
