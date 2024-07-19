@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../components/navbar/Navbar'
 import SearchInput from '../components/SearchInput'
-import { Col, Row } from 'react-bootstrap';
 import RoomCards from '../components/RoomCards';
 
 
