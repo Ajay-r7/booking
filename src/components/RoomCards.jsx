@@ -33,7 +33,7 @@ function RoomCards() {
                   <p>Price: 5000</p>
                 </div>
                 <div className="align-items-center">
-                  <Button className="mt-1 contact-btn btn btn-success rounded-3 w-75" variant="primary">
+                  <Button onClick={handleShow} className="mt-1 contact-btn btn btn-success rounded-3 w-75" variant="primary">
                     Book Now
                   </Button>
                 </div>
