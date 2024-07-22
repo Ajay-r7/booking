@@ -1,5 +1,9 @@
 
 import Navbar from '../components/navbar/Navbar'
+import RoomCard from '../components/Roomcard'
+import SearchInput from '../components/SearchInput'
+
+
 
 
 
@@ -9,9 +13,9 @@ return (
     <>
     
     <Navbar/>
-    {/* <div className='mt-5'><SearchInput /></div>
+    <div className='mt-5'><SearchInput /></div>
 
-    <RoomCards/> */}
+    <RoomCard/>
     </>
   )
 }
